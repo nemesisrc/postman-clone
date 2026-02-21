@@ -2,7 +2,6 @@
 
 A modern, minimal, and visually appealing API client built with **FastAPI** and **React**. This application allows you to test RESTful APIs with a sleek, dark-themed interface, bypassing CORS restrictions via a backend proxy.
 
-![UI Preview](https://via.placeholder.com/800x450.png?text=Postman+Clone+UI+Preview) *Placeholder for UI Screenshot*
 
 ## ✨ Features
 

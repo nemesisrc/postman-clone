@@ -67,16 +67,31 @@ select, input {
   background-color: var(--bg-color);
   border: 1px solid var(--border-color);
   color: var(--text-primary);
-  padding: 0.75rem 1rem;
+  padding: 0.85rem 1.25rem;
   border-radius: var(--radius-md);
   outline: none;
   font-size: 0.95rem;
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+select {
+  min-width: 120px;
+}
+
+.url-bar input {
+  flex-grow: 1;
+  min-width: 700px; /* Significantly increased length */
+}
+
 select:focus, input:focus {
   border-color: var(--accent-color);
   box-shadow: 0 0 0 4px var(--accent-glow);
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--text-secondary);
+  font-weight: 600;
+  opacity: 0.5;
 }
 
 .send-btn {

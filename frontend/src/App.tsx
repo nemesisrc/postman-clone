@@ -65,7 +65,7 @@ function App() {
   return (
     <div className="app-container">
       <header>
-        <div className="logo">POSTMAN</div>
+        <div className="logo">POSTMANX</div>
         <div className="url-bar">
           <select value={method} onChange={(e) => setMethod(e.target.value)}>
             <option>GET</option>

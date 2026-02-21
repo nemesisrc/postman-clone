@@ -1,0 +1,1 @@
+add more features—like request history, environment variables, or support for GraphQL
