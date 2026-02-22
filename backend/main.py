@@ -82,7 +82,7 @@ async def analyze_api_call(request: Request):
     """
     
     try:
-        model = genai.GenerativeModel("gemini-1.5-pro")
+        model = genai.GenerativeModel("gemini-3.1-pro")
         response = model.generate_content(prompt)
         return {"analysis": response.text}
     except Exception as e:
@@ -90,4 +90,4 @@ async def analyze_api_call(request: Request):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8001)
+    uvicorn.run(app, host="localhost", port=8001)
